@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=ScoreInfo
+comment0.text=\n\ Write\ a\ description\ of\ class\ ScoreInfo\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=aScore
+comment1.target=ScoreInfo(int)
+comment2.params=
+comment2.target=void\ increment()
+comment3.params=
+comment3.target=int\ getScore()
+comment4.params=
+comment4.target=int\ getFrequency()
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6
