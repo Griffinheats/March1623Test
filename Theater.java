@@ -1,15 +1,8 @@
 /**
  * Write a description of class Theater here.
  *
- * @author (your name)
- * @version (a version number or a date)
- * 
- * 6
- * 5
- * 4
- * 3
- * 2
- * 1
+ * @author Griffin Heatley
+ * @version 3/20/23
  */
 public class Theater
 {

@@ -25,7 +25,7 @@ public class Stats
             if(score == scoreList.get(i).getScore())
             {
                 scoreList.get(i).increment();
-                return false;
+                return true;
             }
         }
         ScoreInfo newScore = new ScoreInfo(score);
@@ -34,17 +34,19 @@ public class Stats
             if(score < scoreList.get(i).getScore())
             {
                 scoreList.add(i-1, newScore);
+                return true;
             }
         }
-        return true;    
+        return false;    
     }
         
     //part b 
     public void recordScores(int[] stuScores)
     {
-       
-        
-        
+        for(int i = 0; i < stuScores.length; i++)
+        {
+            record(stuScores[i]);
+        }
     } 
     
     //added to test code 
